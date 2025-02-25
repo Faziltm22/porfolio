@@ -6,6 +6,7 @@ body {
     background-color: #1e1e1e;
     color: white;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 .navbar {
     background-color: #252525;
