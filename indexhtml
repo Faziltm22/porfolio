@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: var(--fontcolor);">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item"><a class="nav-link"  href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br><br>
+    
+    <section class="hero">
+        <img src="IMG_8632.PNG" alt="Profile Picture">
+        <h1>MUHAMMED FAZIL TM </h1>
+        <p>Python Full Stack Developer </p>
+        <button class="btn btn-custom"><a href="MUHAMMED FAZIL TM ressume_.pdf" download="Muhammed Fazil TM CV">
+            Download CV
+        </a></button>
+    </section><br><br>
+
+    <div class="container About" id="About">
+        <hr><br><br>
+
+        <label >About</label>
+        <p>Enthusiastic and zealous full stack developer with effective understanding of languages such as
+            python and javascript, with capacity to develop dynamic web applications using django and
+            Angular. Novel problem solvers particularly in user experience design and always willing to learn
+            new technology that arises. Able to work within agile teams towards quality delivery of the
+            software solutions.
+            </p>
+    </div><br><br><hr><br><br>
+    
+    <section class="container skills">
+        <h2>Skills</h2>
+        <div class="row mt-4">
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Python</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Django</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Angular</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Html</div>
+
+            </div> <div class="col-md-3 p-2">
+                <div class="skill-card">CSS & Bootstrap</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Javascript</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">Mongo DB and Mysql</div>
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="skill-card">REST Framework</div>
+            </div>
+        </div>
+    </section><br><br><hr><br><br>
+
+    <section class="projects-section" id="projects">
+        <h2>Projects</h2>
+        <p>Some Things I've built so far</p>
+        
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="hospitall.png" alt="UIX Portfolio Website">
+                <h3>Hospital Management</h3>
+                <p>Admin Dashboard Complete control over hospital operations, analytics, and reports. 
+                    <br>
+                    using django
+                </p>
+                <button class="code-btn"> <i class="fas fa-code"></i> <a href="https://github.com/Faziltm22/HospitamManagementSystm">View Code</a></button>
+            </div>
+
+            <div class="project-card">
+                <img src="todo full.png" alt="LOZAN Ecommerce Web">
+                <h3> Todo list</h3>
+                <p>Django and angular <br> 
+                    Register, login, and manage users securely.
+                 Create, read, update, and delete tasks.</p>
+                 <button class="code-btn"> <i class="fas fa-code"></i> <a href="https://github.com/Faziltm22/todo_angular">View Code</a></button>
+            </div>
+
+            <div class="project-card">
+                <img src="redstore.png" alt="HOMEY Furniture app">
+                <h3>RedStore clone</h3>
+                <p>Frontend design principles  web development. <br>
+                using htl css and javascript </p>
+                <button class="code-btn"> <i class="fas fa-code"></i> <a href="https://github.com/Faziltm22/RedStore-Clone">View code</a></button>
+            </div>
+
+            <div class="project-card">
+                <img src="calculator.png" alt="CARENT Rental Website">
+                <h3>calculator</h3>
+                <p>Basic Arithmetic Operations 
+                    Real-Time Calculations 
+                    Clear & Reset Functions
+                    Responsive Design</p>
+                    <button class="code-btn"> <i class="fas fa-code"></i> <a href="https://github.com/Faziltm22/iosCalculato">View code</a></button>            
+                </div>
+
+            <div class="project-card">
+                <h3 style="color: var(--fontcolor);">more projects</h3>
+                <button class="code-btn"> <i class="fas fa-code"></i> <a href="https://github.com/Faziltm22?tab=repositories">Github</a></button>  
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <div class="contact-card" id="contact">
+        <div class="cont-oo">
+            <h2>CONTACT WITH ME</h2>
+        <hr>
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdlQvrqdVmZTJdsXMXJnTwkHMMqsbNvqRLCNJCzMzRBxBHJhzTTVgxtSHhbcJVRPRqfdq">tmfazil22@gmail.com </a>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 7902963413</span>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Malappuram,kerela,india</span>
+        </div>
+        </div>
+        
+    </div><br><br><br>
+    <hr><br>
+    <div class="containerscroll">
+        <h6>Thanks for scrolling</h6>
+    </div>
+
+
+
+   
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

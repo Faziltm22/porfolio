@@ -1,0 +1,173 @@
+:root{
+    --fontcolor:#f9b529;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #252525;
+    
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero a{
+    all: unset;
+    cursor: pointer;
+}
+.hero button {
+    transition: 0.3s;
+}
+.hero button :hover{
+    color: var(--fontcolor);
+}
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: var(--fontcolor);
+}
+.btn-custom {
+    background-color: var(--fontcolor);
+    color: black;
+    border: none;
+}
+.skills {
+    text-align: center;
+    padding: 50px 0;
+    
+}
+.skills h2{
+    color: var(--fontcolor);
+}
+.skill-card {
+    background: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.skill-card:hover {
+    background: #444;
+}
+
+#About label {
+    font-size: 28px;
+    color: var(--fontcolor);
+}
+#About p{
+    letter-spacing: 3px;
+    line-break: 4px;
+}
+
+
+
+.contact-card {
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    min-width: 500px;
+    background: #2d2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(19, 19, 19, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+hr {
+    border: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.contact-item i {
+    font-size: 20px;
+    color: #00bfff;
+}
+
+.contact-item a, .contact-item span {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+#cont-oo{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.projects-section {
+    text-align: center;
+    padding: 20px;
+}
+.projects-section h2{
+    color: var(--fontcolor);
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+.projects-container a {
+    all: unset;
+}
+
+.project-card {
+    background: #3d3c3c;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.code-btn {
+    background: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.code-btn:hover {
+    background: #520b9a;
+}
+.contact-card h2{
+    color: var(--fontcolor);
+}
+.containerscroll{
+    margin: auto;
+    max-width: fit-content;
+}
+.containerscroll h6{
+    color: rgba(255, 255, 255, 0.445);
+}
